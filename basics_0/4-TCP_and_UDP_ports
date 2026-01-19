@@ -2,4 +2,4 @@
 # This script displays all listening TCP and UDP ports along with the PID and program name
 
 # Display listening TCP and UDP sockets with PID/Program name
-sudo ss -tulnp
+netstat -lpn
